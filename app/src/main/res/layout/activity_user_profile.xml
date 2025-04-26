@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UserProfile"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar" />
+
+
+    <ImageView
+        android:id="@+id/addButton"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/include"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="339dp"
+        android:layout_marginLeft="339dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="18dp"
+        android:contentDescription="@string/add_item_button"
+        android:src="@drawable/add_icon" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="400dp"
+        android:layout_height="650dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="100dp"
+        android:paddingLeft="11dp" />
+
+
+</RelativeLayout>

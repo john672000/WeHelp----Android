@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="user">USER</string>
+    <string name="orphanage">ORPHANAGE</string>
+    <string name="login">Login</string>
+    <string name="waste_management_app">Waste Management App</string>
+    <string name="register">Register</string>
+    <string name="add_item_button">Add Item Button</string>
+    <string name="owner_name">Owner Name:</string>
+    <string name="owner_phone">Owner Phone:</string>
+    <string name="owner_address">Owner Address:</string>
+</resources>
